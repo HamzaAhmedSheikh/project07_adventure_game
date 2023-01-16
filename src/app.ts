@@ -29,3 +29,16 @@ async function welcome() {
 }
 
 await welcome();
+
+// text-based adventure game variables 
+const enemies: string[] = ["Skeleton", "Warrior", "Assasin"];
+const maxEnemyHealth: number = 75;
+const enemyAttackDamage: number = 25;
+
+let health: number = 100;
+const attackDamage: number = 50;
+let numBandages: number = 3; // numHealthPotion  
+const numBandagesHealAmount: number = 30; // healthPotionHealAmount 
+const bandagesDropChance: number = 50; // healthPotionDorpChance
+
+let running: boolean = true;
