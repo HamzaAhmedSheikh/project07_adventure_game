@@ -2,6 +2,7 @@
   "name": "project07_adventure_game",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/HamzaAhmedSheikh/project07_adventure_game.git",
   "author": "HamzaAhmedSheikh <hamzaahmedsheikh313@gmail.com>",
   "license": "MIT",
