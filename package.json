@@ -1,10 +1,13 @@
 {
-  "name": "project07_adventure_game",
+  "name": "escape_from_dungeon",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "escape_from_dungeon": "lib/index.js"
+  },
   "repository": "https://github.com/HamzaAhmedSheikh/project07_adventure_game.git",
-  "author": "HamzaAhmedSheikh <hamzaahmedsheikh313@gmail.com>",
+  "author": "Hamza Ahmed Sheikh",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.2.0",
